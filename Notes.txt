@@ -1,0 +1,69 @@
+Backend Till Follow/unfollow ----20/02/2026
+
+
+I am building a full-stack social media backend called "VIBE".
+
+Tech Stack:
+- Java 22
+- Spring Boot 4
+- Spring Security 6+
+- JWT (HS256)
+- PostgreSQL (Supabase)
+- Hibernate 7
+- Maven
+
+Project Structure:
+
+com.vibe.vibe
+│
+├── auth
+├── config
+├── user
+├── post
+├── comment
+├── follow
+├── like
+├── notification
+├── message
+│
+└── VibeApplication
+
+Current Status:
+- JWT authentication completed
+- Register & Login working
+- /api/users/me working
+- All entities created
+- All repositories created
+- Update profile API completed
+
+IMPORTANT RULES:
+- Tell me EXACT file names to create or edit
+- Tell me the full package path of each file
+- Use DTOs properly
+- Do NOT return entities directly
+- Keep architecture clean and scalable
+- Use transactional where needed
+- Follow production-level best practices
+- Explain briefly why each layer is structured that way
+
+Now I want to implement the next core social media features in proper order:
+
+1) Follow / Unfollow system (fully complete with counts + isFollowing)
+2) Like system (toggle like, like count, isLiked)
+3) Comment system (create, delete, paginated comments)
+4) Improve News Feed API with pagination and counts
+5) Public User Profile API
+
+Start with Follow / Unfollow system and give me:
+
+- Entity improvements (if needed)
+- Repository updates
+- Service implementation
+- Controller implementation
+- DTOs required
+- Where to create and where to edit
+
+Give production-ready code.
+
+
+last prompt given for backend
